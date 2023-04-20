@@ -85,8 +85,8 @@ def reverse_complement_v3(dna_sequence):
         reverse_complement_sequence.append(complement_nuc)
     reverse_complement_as_string = ''.join(reverse_complement_sequence)
     return reverse_complement_as_string
-#
-#
+
+
 def reverse_complement_v4(dna_sequence):
     reverse_complement_sequence = []  # Initiate result variable
 
